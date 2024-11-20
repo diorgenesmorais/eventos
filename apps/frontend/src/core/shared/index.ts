@@ -1,3 +1,4 @@
 import Id from './Id';
+import Identifier from './Identifier';
 
-export { Id }
+export { Id, Identifier }
