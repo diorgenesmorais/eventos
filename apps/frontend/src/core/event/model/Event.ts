@@ -2,7 +2,7 @@ import IGuest from "./Guest";
 
 export default interface IEvent {
     id: string;
-    indeed: string;
+    identifier: string;
     password: string;
     name: string;
     date: Date;
