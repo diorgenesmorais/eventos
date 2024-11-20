@@ -1,6 +1,6 @@
 import Event from './model/Event';
 import Guest from './model/Guest';
-import createEmptyEvent from './functions/createEmptyEvent';
+import validateEvent from './functions/validateEvent';
 
 export type { Event, Guest }
-export { createEmptyEvent }
+export { validateEvent }
