@@ -5,6 +5,7 @@ import completeEvent from './functions/completeEvent';
 import createEmptyEvent from './functions/createEmptyEvent';
 import createEmptyGuest from './functions/createEmptyGuest';
 import validateGuest from './functions/validateGuest';
+import completeGuest from './functions/completeGuest';
 
 export type { Event, Guest }
 export {
@@ -12,5 +13,6 @@ export {
     completeEvent,
     createEmptyEvent,
     createEmptyGuest,
-    validateGuest
+    validateGuest,
+    completeGuest
 }
