@@ -4,6 +4,13 @@ import validateEvent from './functions/validateEvent';
 import completeEvent from './functions/completeEvent';
 import createEmptyEvent from './functions/createEmptyEvent';
 import createEmptyGuest from './functions/createEmptyGuest';
+import validateGuest from './functions/validateGuest';
 
 export type { Event, Guest }
-export { validateEvent, completeEvent, createEmptyEvent, createEmptyGuest }
+export {
+    validateEvent,
+    completeEvent,
+    createEmptyEvent,
+    createEmptyGuest,
+    validateGuest
+}
